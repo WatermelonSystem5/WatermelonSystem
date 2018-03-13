@@ -2199,7 +2199,7 @@ select::-ms-expand {
       left: 0;
       position: fixed;
       top: 0;
-      width: 30%; } }
+      width: 20%; } }
   @media (max-width: 1024px) {
     #nav {
       -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
@@ -3271,10 +3271,10 @@ a.card {
   @media (min-width: 1025px) {
     #content {
       left: auto;
-      margin-left: 30%;
+      margin-left: 20%;
       padding-bottom: 24px;
       padding-top: 24px;
-      width: 70%; } }
+      width: 80%; } }
   @media (max-width: 640px) {
     #content .box.submit-box {
       box-shadow: none;
@@ -3452,7 +3452,7 @@ a.card {
 
 @media (min-width: 1025px) {
   #nav .overlay {
-    width: 30%; } }
+    width: 20%; } }
 @media (max-width: 640px) {
   #nav .overlay .body {
     padding-bottom: 55px; } }
