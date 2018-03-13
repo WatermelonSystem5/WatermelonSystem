@@ -6,26 +6,15 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="../js/drag.js" type="text/javascript"></script>
 <!-- Google Tag Manager -->
-<script type="text/javascript" async="" src="/WatermelonSystem/js/script.js"></script>
-<script type="text/javascript" async="" src="/WatermelonSystem/js/analytics.js"></script>
+<script type="text/javascript" async=""
+	src="/WatermelonSystem/js/script.js"></script>
+<script type="text/javascript" async=""
+	src="/WatermelonSystem/js/analytics.js"></script>
 <script src="/WatermelonSystem/js/hm.js"></script>
 <script async="" src="/WatermelonSystem/js/gtm.js"></script>
-<script>
-	(function(w, d, s, l, i) {
-		w[l] = w[l] || [];
-		w[l].push({
-			'gtm.start' : new Date().getTime(),
-			event : 'gtm.js'
-		});
-		var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l='
-				+ l
-				: '';
-		j.async = true;
-		j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-		f.parentNode.insertBefore(j, f);
-	})(window, document, 'script', 'dataLayer', 'GTM-MGKBKT5');
-</script>
+<script src="../js/jquery.min.js"></script>
 <!-- End Google Tag Manager -->
 
 <script>
@@ -39,107 +28,51 @@
 </script>
 
 
-<title>星享俱乐部 | 星巴克</title>
+
+<title>登录</title>
 
 <!-- Meta -->
-
-
-
-
-
-
-
-
-
 
 <meta http-equiv="Content-Language" content="zh">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="">
-<meta name="description" content="星享俱乐部">
+<meta name="description" content="点餐系统">
 <meta name="baidu-site-verification" content="u7Vir8pZFL">
 <link rel="canonical" href="https://www.starbucks.com.cn/account/">
 
 <!-- Open graph -->
-<meta property="og:site_name" content="星巴克">
+<meta property="og:site_name" content="点餐系统">
 <meta property="og:type" content="website">
-<meta property="og:title" content="星享俱乐部">
+<meta property="og:title" content="点餐系统">
 <meta property="og:url" content="/account/">
-<meta property="og:description" content="星享俱乐部">
+<meta property="og:description" content="点餐系统">
 <meta property="og:image" content="/assets/favicons/mstile-310x150.png">
 
 <!-- Twitter card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site"
 	content="{&quot;username&quot;=&gt;&quot;@starbucks&quot;}">
-<meta name="twitter:title" content="星享俱乐部">
-<meta name="twitter:description" content="星享俱乐部">
+<meta name="twitter:title" content="点餐系统">
+<meta name="twitter:description" content="点餐系统">
 <meta name="twitter:image" content="/assets/favicons/mstile-310x150.png">
-
-<!-- WeChat sharing -->
-<script>
-	var WECHAT_TITLE = '星巴克官网: 星享俱乐部';
-	var WECHAT_DESC = '星享俱乐部';
-	var WECHAT_IMAGE = '/assets/WatermelonSystem/images/wechat.png';
-</script>
-
-
-<!-- Favicons -->
-<link rel="apple-touch-icon" sizes="180x180"
-	href="https://www.starbucks.com.cn/assets/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png"
-	href="https://www.starbucks.com.cn/assets/favicons/favicon-32x32.png"
-	sizes="32x32">
-<link rel="icon" type="image/png"
-	href="https://www.starbucks.com.cn/assets/favicons/favicon-16x16.png"
-	sizes="16x16">
-<link rel="manifest"
-	href="https://www.starbucks.com.cn/assets/favicons/manifest.json">
-<link rel="mask-icon"
-	href="https://www.starbucks.com.cn/assets/favicons/safari-pinned-tab.svg"
-	color="#ef233c">
-<link rel="shortcut icon"
-	href="https://www.starbucks.com.cn/assets/favicons/favicon.ico">
-<meta name="msapplication-config"
-	content="/assets/favicons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
-
 
 <!-- CSS -->
 <link rel="stylesheet" href="/WatermelonSystem/css/styles.css">
-<script type="text/javascript" async="" src="/WatermelonSystem/js/jsonMsg.js"></script>
-<script type="text/javascript" async="" src="/WatermelonSystem/js/TCapIframe.js"></script>
+<link href="../css/drag.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" async=""
+	src="/WatermelonSystem/js/jsonMsg.js"></script>
+<script type="text/javascript" async=""
+	src="/WatermelonSystem/js/TCapIframe.js"></script>
 <link rel="stylesheet" type="text/WatermelonSystem/css"
 	href="/WatermelonSystem/css/tcaptcha_animation.css">
 </head>
 
 <body class="lang-zh page-account chrome non-logged-in" ontouchstart="">
-	<!-- Google Tag Manager (noscript) -->
-	<noscript>&lt;iframe
-		src='https://www.googletagmanager.com/ns.html?id=GTM-MGKBKT5'
-		height='0' width='0'
-		style='display:none;visibility:hidden'&gt;&lt;/iframe&gt;</noscript>
-	<!-- End Google Tag Manager (noscript) -->
-
-	<script>
-		var isChrome = ((navigator.userAgent.toLowerCase().indexOf('chrome') > -1)
-				&& (navigator.vendor.toLowerCase().indexOf('google') > -1) || navigator.userAgent
-				.match('CriOS'));
-		if (isChrome)
-			document.body.classList.add('chrome');
-	</script>
-
 	<div id="app-view-wrapper">
-		<!-- Navigation panel -->
-
-
-
-
-
 		<nav id="nav">
 			<div class="container">
 				<header class="header">
-					<a class="logo" href="https://www.starbucks.com.cn/"> <img
-						src="/WatermelonSystem/icon/logo.svg" alt="星巴克">
+					<a href="https://www.starbucks.com.cn/"> <img src="../icon/logo3.png" alt="大西瓜">
 					</a>
 					<div class="primary">
 						<ul>
@@ -164,19 +97,19 @@
 				</header>
 
 				<div class="body">
-					<div id="react-account-navigation-bar" class="body">
+					<div class="body">
 						<nav data-reactroot="" class="container middle secondary">
 							<div class="display-1">
-								<span>登录或创建一个新帐户 🌟</span>
+								<span>登录或创建 🌟</span>
 							</div>
 							<div class="tabs-wrapper">
 								<ul class="subcategories">
 									<li><a class="active"
-										href="https://www.starbucks.com.cn/account/#/"><span>登录</span></a></li>
+										href="/WatermelonSystem/zp/login.jsp"><span>登录</span></a></li>
 									<li><a class="false"
-										href="https://www.starbucks.com.cn/account/register"><span>注册</span></a></li>
+										href="/WatermelonSystem/zp/register.jsp"><span>注册</span></a></li>
 									<li><a class="false"
-										href="https://www.starbucks.com.cn/account/my-starbucks-rewards"><span>关于星享俱乐部</span></a></li>
+										href="https://www.starbucks.com.cn/account/my-starbucks-rewards"><span>关于</span></a></li>
 								</ul>
 							</div>
 						</nav>
@@ -189,8 +122,7 @@
 			<div class="overlay " id="nav-overlay">
 				<div class="container">
 					<header class="header">
-						<a class="logo" href="https://www.starbucks.com.cn/"> <img
-							src="/WatermelonSystem/icon/logo.svg" alt="星巴克">
+						<a href="https://www.starbucks.com.cn/"> <img src="../icon/logo3.png" alt="大西瓜">
 						</a>
 						<button class="icon close">Close</button>
 					</header>
@@ -236,7 +168,7 @@
 
 
 								<li><a id="about-overlay"
-									href="https://www.starbucks.com.cn/about/"> 关于星巴克 </a></li>
+									href="https://www.starbucks.com.cn/about/"> 关于 </a></li>
 
 
 								<li><a id="help-overlay"
@@ -289,129 +221,109 @@
 		<!-- Page content -->
 		<section id="content">
 
-			<div id="react-account-app">
-				<div data-reactroot="">
-					<div class="account_app">
-						<div class="dashboard">
-							<section class="hero account-welcome-msr">
-								<div class="wrapper padded-t2">
-									<div class="flex">
-										<div class="flex2 padded-r2">
-											<h1 class="display-2 margin-1">
-												<span>星享俱乐部</span>
-											</h1>
-											<p class="light">
-												<span>加入星享俱乐部，即可在星巴克门店消费时积星星，享好礼！每累积消费50元可获赠一颗星星。星星越多，会员等级越高，好礼越丰富！</span>
-											</p>
-											<a class="button" id="msr-learn-more"
-												href="https://www.starbucks.com.cn/account/my-starbucks-rewards"><span>查看详情</span></a>
-										</div>
-										<div class="flex1 image">
-											<img src="/WatermelonSystem/image/card-msr-unlogged.png">
-										</div>
-									</div>
-								</div>
-							</section>
-							<section class="join-form submit-box">
-								<div class="wrapper wrapper-mobile">
-									<div class="login-form">
-										<div class="form-field">
-											<input type="hidden" value="version">
-											<div class="field floating">
-												<div class="ok">
-													<input type="text" id="username" name="username"
-														placeholder="用户名或者电子邮箱" value=""
-														autocomplete="new-password"><label>用户名或者电子邮箱</label>
-												</div>
-											</div>
-											<div class="password-group-field">
-												<div class="field floating">
-													<div class="ok">
-														<input type="password" name="password" placeholder="密码"
-															value="" autocomplete="new-password"><label>密码</label>
-													</div>
-												</div>
-												<div class="toggle-password hide"></div>
-											</div>
-										</div>
-										<div class="field checkbox">
-											<input type="checkbox" id="login-remember" value="on"><label
-												for="login-remember"><span>下次自动登录</span></label>
-										</div>
-										<p>
-											<a id="sign-in-forgot-password"
-												href="https://www.starbucks.com.cn/account/forgot-password"
-												class="link"><span>忘记密码？</span></a>
-										</p>
-										<div class="field captcha">
-											<div class="item captchaWrapper">
-												<!-- react-empty: 70 -->
-												<div
-													style="width: 300px; height: 160px; margin: 0px auto; position: relative; z-index: 0;">
-													<iframe frameborder="0" border="0" marginheight="0"
-														marginwidth="0" scrolling="no"
-														src="./星享俱乐部 _ 星巴克_files/cap_union_new_show.html"
-														style="width: 300px; height: 152px; border: 0px; position: relative; left: 0px; top: 0px; z-index: 2000000001;"></iframe>
-												</div>
-											</div>
-										</div>
-										<div class="actions">
-											<button class="button large" disabled="">
-												<span>登录</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</section>
-							<section class="account-join">
-								<div class="wrapper padded-t1">
+			<div data-reactroot="">
+				<div class="account_app">
+					<div class="dashboard">
+						<section class="hero account-welcome-msr">
+							<div class="wrapper padded-t2">
+								<div class="flex">
 									<div class="flex2 padded-r2">
-										<h2 class="gold">
-											<span>加入星享俱乐部</span>
-										</h2>
+										<h1 class="display-2 margin-1">
+											<span>哈哈哈哈</span>
+										</h1>
 										<p class="light">
-											<span>只需几分钟，便可成功注册星享俱乐部帐户，成为“星”会员，立即开启集星之旅。</span>
+											<span>哈哈哈哈写点啥呢</span>
 										</p>
+										<a class="button" id="msr-learn-more"
+											href="https://www.starbucks.com.cn/account/my-starbucks-rewards"><span>查看详情</span></a>
 									</div>
-									<div class="flex1 creat-account">
-										<a id="create-account" class="button"
-											href="https://www.starbucks.com.cn/account/register"><span>注册</span></a>
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="loading"></div>
-						<div></div>
-						<div></div>
-						<div class="dialog">
-							<div class="dialog-scroller">
-								<div class="dialog-container">
-									<div class="dialog-box">
-										<header class="header">
-											<button class="icon close">×</button>
-											<h3></h3>
-										</header>
-										<div class="body center"></div>
-										<footer class="footer"></footer>
+									<div class="flex1 image">
+										<img src="/WatermelonSystem/image/card-msr-unlogged.png">
 									</div>
 								</div>
 							</div>
+						</section>
+						<section class="join-form submit-box">
+							<div class="wrapper wrapper-mobile">
+								<div class="login-form">
+									<div class="form-field">
+										<input type="hidden" value="version">
+										<div class="field floating">
+											<div class="ok">
+												<input type="text" id="username" name="username"
+													placeholder="用户名或者电子邮箱" value=""
+													autocomplete="new-password"><label>用户名或者电子邮箱</label>
+											</div>
+										</div>
+										<div class="password-group-field">
+											<div class="field floating">
+												<div class="ok">
+													<input type="password" name="password" placeholder="密码"
+														value="" autocomplete="new-password"><label>密码</label>
+												</div>
+											</div>
+											<div class="toggle-password hide"></div>
+										</div>
+									</div>
+									<div class="field checkbox">
+										<input type="checkbox" id="login-remember" value="on"><label
+											for="login-remember"><span>下次自动登录</span></label>
+									</div>
+									<p>
+										<a id="sign-in-forgot-password"
+											href="https://www.starbucks.com.cn/account/forgot-password"
+											class="link"><span>忘记密码？</span></a>
+									</p>
+									<div
+										style="width: 300px; height: 160px; margin: 0px auto; position: relative; z-index: 0;">
+										<iframe frameborder="0" border="0" marginheight="0"
+											marginwidth="0" scrolling="no" src="test.jsp"
+											style="width: 300px; height: 152px; border: 0px; position: relative; left: 0px; top: 0px; z-index: 2000000001;">
+										</iframe>
+									</div>
+								</div>
+								<div class="actions">
+									<button class="button large" id="txt1">
+										<span>登录</span>
+									</button>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+
+			</div>
+			<div class="loading"></div>
+			<div></div>
+			<div></div>
+			<div class="dialog">
+				<div class="dialog-scroller">
+					<div class="dialog-container">
+						<div class="dialog-box">
+							<header class="header">
+								<button class="icon close">×</button>
+								<h3></h3>
+							</header>
+							<div class="body center"></div>
+							<footer class="footer"></footer>
 						</div>
 					</div>
 				</div>
 			</div>
+	</div>
+	</div>
 
-			<div id="app-notification">
-				<div data-reactroot=""></div>
-			</div>
-		</section>
+	<div id="app-notification">
+		<div data-reactroot=""></div>
+	</div>
+	</section>
 
-		<div id="app-loading">
-			<div data-reactroot="" class="loading"></div>
-		</div>
-		<div id="app-auth">
-			<span data-reactroot=""></span>
-		</div>
+	<div id="app-loading">
+		<div data-reactroot="" class="loading"></div>
+	</div>
+	<div id="app-auth">
+		<span data-reactroot=""></span>
+	</div>
 
 
 	</div>
@@ -439,7 +351,8 @@
 				href="https://www.starbucks.com.cn/account/" class="active"> <span
 					class="icons"> <img
 						src="/WatermelonSystem/icon/icon-account.svg"> <img
-						src="/WatermelonSystem/icon/icon-account-active.svg" class="active">
+						src="/WatermelonSystem/icon/icon-account-active.svg"
+						class="active">
 				</span>
 					<div id="account-mobile">我的帐户</div>
 			</a></li>
@@ -462,16 +375,21 @@
 		</ul>
 	</div>
 
+	<div id="drag"></div>
 
 	<!-- Javascript -->
 	<!--[if lt IE 9]><script src='https://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+	<script type="text/javascript">
+		$('#drag').drag();
+	</script>
+
 	<script>
 		var PAGE_LANG = 'zh';
 		var PAGE_TITLE = '星享俱乐部';
 		var PAGE_URL = '/account/';
 		var SEARCH_EMPTY = '未找到结果';
 	</script>
-	<script type="text/javascript" src="/WatermelonSystem/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
 	<script type="text/javascript"
 		src="/WatermelonSystem/js/polyfill.min.js"></script>
 	<script type="text/javascript" src="/WatermelonSystem/js/fastclick.js"></script>
@@ -492,24 +410,6 @@
 	<script type="text/javascript"
 		src="/WatermelonSystem/js/jweixin-1.2.0.js"></script>
 	<script type="text/javascript" src="/WatermelonSystem/js/wechat.js"></script>
-
-	<script>
-		var _mare_pk = 'cebe139b29ba185df05b83bdbf5b368a3f4631f508b06d2822fb1c172cecd129';
-		var _mare_sc = 'cf1404da791f20017736ff78649f2b9f';
-		(function() {
-			var mare = document.createElement('script');
-			mare.type = "text/javascript";
-			mare.async = true;
-			mare.src = ('https:' == document.location.protocol ? 'https://'
-					: 'http://')
-					+ 'mare.io/API/script.js';
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(mare, s);
-		})();
-	</script>
-
-
-
 
 	<script src="/WatermelonSystem/js/TCapIframeApi.js" async=""></script>
 </body>
